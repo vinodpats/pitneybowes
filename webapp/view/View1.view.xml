@@ -1,0 +1,11 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.ibm.controller.View1" xmlns:sap.ui.core="sap.ui.core">
+	<App>
+		<pages>
+			<Page title="{i18n&gt;title}">
+				<content>
+				    <Button text="Button" width="100px" id="__button0" press="onButtonPress"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
